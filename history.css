@@ -1,0 +1,30 @@
+.head{
+    background-image: url(https://img.fotocommunity.com/vatikan-abendstimmung-78c1ff2d-a34e-4bb9-861d-8d8cb7d0a2d6.jpg?height=1080);
+}
+.history-image{
+    width: 100%;
+}
+.historical-place{
+    width: 100%;
+}
+.mb-10{
+    margin-bottom: 40px;
+}
+.flex{
+    display: flex;
+    gap: 20px;
+}
+.history-inf{
+    font-size: 20px;
+    align-self: center;
+}
+.self-center{
+    align-self: center;
+}
+
+.old-photo{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    margin-bottom: 40px;
+}

@@ -1,0 +1,38 @@
+.header-images {
+    width: 300px;
+    object-fit: cover;
+    position: absolute;
+
+}
+.head{
+    background-image: url(https://wallpapercave.com/wp/5A1Xieb.jpg);
+}
+
+.head::before {
+
+    opacity: .8;
+}
+
+.images {
+    position: relative;
+    top: 70px;
+}
+
+.header-images:first-child {
+    position: absolute;
+    z-index: 99;
+}
+
+.header-images:nth-child(2) {
+    left: 40px;
+    top: 60px;
+    z-index: 98;
+}
+
+.header-images:nth-child(3) {
+    left: 80px;
+    top: 130px;
+}
+.slider-element{
+    height: 250px;
+}
